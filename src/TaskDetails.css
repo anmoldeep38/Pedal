@@ -1,0 +1,55 @@
+.task-details {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .task-details h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .task-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .task-details strong {
+    color: #000;
+  }
+  
+  .task-details button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .task-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-details button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .task-details button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
+  .task-details button[type="button"].delete {
+    background-color: #dc3545;
+  }
+  
+  .task-details button[type="button"].delete:hover {
+    background-color: #c82333;
+  }
+  

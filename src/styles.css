@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .task-form, .task-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
